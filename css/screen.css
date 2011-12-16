@@ -1,0 +1,39 @@
+
+ul { 
+	margin: 20px auto;
+	padding: 0;
+	width: 800px;
+}
+ul li {
+	float: left;
+	width: 200px;
+	height: 220px;
+	overflow: hidden;
+}
+ul li a {
+	display: block;
+	margin: 4px 0;
+	text-align: center;
+}
+ul li p {
+	display: none;
+}
+ul li.large {
+	width: 800px;
+	height: 200px;
+	margin: 10px 0;
+}
+ul li.large img {
+	float: left;
+	width: 200px;
+	padding-right: 10px;
+}
+ul li.large a,
+ul li.large p {
+	display: block;
+	text-align: left;
+	display: block;
+	padding-left: 10px;
+}
+
+
